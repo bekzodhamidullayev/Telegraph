@@ -1,0 +1,19 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/telegraph
+    username: postgres
+    password: 2323
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: true
+        format_sql: true
+jwt:
+    expiry: 30000000
+    secret: qwetuykyjhfdgsafgjhkoiutrefdsavzbxcnmktjyhretgwedfvbnjkrjyerhsfg
+
